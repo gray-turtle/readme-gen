@@ -1,30 +1,26 @@
 
-  # booooooiiis
+  # README-gen
 
-  ## in the park
+  ## Description
+  Readme-gen generates a readme for your project by asking a few questions in your terminal window.
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contribution](#constribution)
-  * [tests](#tests)
   * [License](#license)
   * [Questions](#questions)
   
   ## Installation
-  asdfas
+  Download or clone to your preferred folder
 
   ## Usage
-  asdf
-
-  ## Contribution
-  asdf
+  navigate to the folder and run "node index.js" in your terminal. [watch this video to see an example](https://drive.google.com/file/d/15V6Bp6AYzrusbJUEBOqaDEUwehBWEoDb/view?usp=sharing)
 
   ## License
-  MIT
+  GPL
 
   ## Questions
   Please direct all questions to:
-  asdfas
-  asdf
+  gray_turtle
+  fkeithr@gmail.com
 

@@ -57,7 +57,7 @@ const init  = () => {
   inquirer.prompt(questions)
     .then(answers => {
       const readmePage = generateMarkdown(answers);
-      fs.writeFile('./README.md', readmePage, err => {
+      fs.writeFile('../README.md', readmePage, err => {
         if (err) throw new Error(err);
 
         console.log('readme generated')
