@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -14,7 +15,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'installation instructions',
+    name: 'installation',
     message: 'Add installation instructions:'
   },
   {
@@ -55,9 +56,12 @@ function writeToFile(fileName, data) {
 }
 
 // function to initialize program
-function init() {
-
+const init = readmeData => {
+  inquirer.prompt(questions)
+    .then(answers => {
+      console.log(JSON.stringify(answers, null, ' '));
+    });
 }
 
 // function call to initialize program
-init();
+init()
